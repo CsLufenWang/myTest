@@ -2,6 +2,10 @@
 
 这个项目展示了如何使用 LangChain 结合 Browser Use 来自动化浏览器操作。
 
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+[![LangChain](https://img.shields.io/badge/LangChain-Latest-green.svg)](https://langchain.com)
+[![Browser Use](https://img.shields.io/badge/Browser%20Use-Latest-orange.svg)](https://github.com/browser-use/browser-use)
+
 ## 功能特性
 
 - 使用 LangChain 的 Agent 框架

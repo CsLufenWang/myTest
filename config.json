@@ -1,0 +1,40 @@
+{
+  "browser": {
+    "headless": false,
+    "browser_type": "chromium",
+    "window_width": 1920,
+    "window_height": 1080,
+    "timeout": 30,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+  },
+  "openai": {
+    "model": "gpt-4",
+    "temperature": 0.1,
+    "max_tokens": 2000
+  },
+  "automation": {
+    "retry_count": 3,
+    "retry_delay": 2,
+    "screenshot_on_error": true,
+    "save_html_on_error": true,
+    "implicit_wait": 10,
+    "page_load_timeout": 30
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "browser_automation.log",
+    "console": true,
+    "max_file_size": "10MB"
+  },
+  "search_engines": {
+    "baidu": "https://www.baidu.com",
+    "google": "https://www.google.com",
+    "bing": "https://www.bing.com"
+  },
+  "common_selectors": {
+    "baidu_search_box": "#kw",
+    "baidu_search_button": "#su",
+    "google_search_box": "input[name='q']",
+    "google_search_button": "input[type='submit']"
+  }
+}
